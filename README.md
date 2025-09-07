@@ -1,6 +1,3 @@
-This repository provides the implementation, training configuration, and pretrained weights for YOLOv11-based defect detection on interferometric fringe images, as described in our paper.
-YOLOv11 for Fringe Defect Detection
-
 This repository contains the implementation, training configuration, and pretrained weights for 
 **YOLOv11-based defect detection on interferometric fringe images**, as proposed in our paper:
 
