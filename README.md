@@ -31,7 +31,7 @@ torch==2.2.0
 cuda==12.1
 numpy, opencv-python, matplotlib
 
-📂 Project Structure
+# Project Structure
 YOLOv11-Fringe-Defect-Detection/
 │
 ├── README.md
@@ -46,7 +46,7 @@ YOLOv11-Fringe-Defect-Detection/
 │   └── train.log            # Training log
 └── LICENSE
 
-🚀 Training
+# Training
 yolo train cfg=train_yolov11_fringe.yaml
 Key training settings:
 Image size: 640
@@ -55,16 +55,16 @@ Epochs: 100
 Optimizer: SGD (lr0=0.01, momentum=0.937, weight_decay=0.0005)
 Scheduler: Cosine LR
 Random seed: 42
-🔍 Inference
+# Inference
 yolo predict model=weights/best.pt source="data/data.yaml/test/
 Results (bounding boxes, confidence scores) will be saved in runs/predict/.
 
-📊 Results
+# Results
 Example detection performance (on synthetic fringe dataset):
 <img width="251" height="125" alt="image" src="https://github.com/user-attachments/assets/fd8967df-7d42-4005-a816-cef5e36e47be" />
-📜 License
+# License
 This project is released under the MIT License
-📚 Citation
+# Citation
 If you use this work, please cite:
 @inproceedings{Song2025YOLOFringe,
   title={An Integrated Deep Learning Framework for Interferometric Fringe Analysis},
